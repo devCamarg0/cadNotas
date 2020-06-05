@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Cadastrar Notas</title>
+	</head>
+
+	<body>
+		<form action="/cad/cadastrar" method="POST">
+			<label>Matéria: </label>
+			<select name="materia">
+				<option>Matemática</option>
+				<option>Português</option>
+				<option>Artes</option>
+				<option>Geografia</option>
+				<option>Filosofia</option>
+				<option>Sociologia</option>
+				<option>Física</option>
+				<option>Inglês</option>
+				<option>Educação Física</option>
+			</select>
+			<br/>
+			<label>Nota: </label>
+			<input type="text" name="nota" placeholder="Sua Nota">
+			<br />
+			<input type="submit" value="Enviar">
+		</form>
+	</body>
+</html>

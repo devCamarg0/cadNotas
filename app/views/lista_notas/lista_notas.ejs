@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Listagem das Notas</title>
+	</head>
+	<body>
+		<table>
+			<tr>
+				<td>Matéria</td>
+				<td>Nota</td>
+			</tr>
+			<% for(var i=0; i < notas.length; i++) { %>
+				<tr>
+					<td><%= notas[i].materia %></td>
+					<td><%= notas[i].nota %></td>
+				</tr>
+			<% } %>	
+		</table>
+	</body>
+</html>
